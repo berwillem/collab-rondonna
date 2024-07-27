@@ -1,0 +1,101 @@
+.subscription-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 35px;
+  gap: 35px;
+}
+.subscription-header {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 15px;
+}
+.subscription-header h2 {
+  color: var(--primary-color);
+}
+.subscription-header h1 {
+  font-weight: 600;
+  font-size: 40px;
+}
+.card-title h3 {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.card-title h3 img {
+  height: 25px;
+  width: 25px;
+}
+
+.subscription-container .cards {
+  display: flex;
+  gap: 32px;
+}
+.subscription-container .cards .card {
+  padding: 30px;
+  border: 1px solid #00000015;
+  border-radius: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  width: 330px;
+  height: 480px;
+}
+.card h2 {
+  color: #a9a9aa;
+  font-size: 20px;
+  font-weight: 400;
+}
+.cards .card ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  height: 500px;
+}
+.cards .card ul li {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.cards .card button {
+    background-color: var(--primary-color);
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: 17px;
+    cursor: pointer;
+}
+.checked {
+  color: #35353f;
+  height: 20px;
+  width: 30px;
+}
+.card h1 {
+  font-size: 25px;
+
+  border-top: 2px dashed #A9A9AA;
+  padding-top: 20px;
+}
+.card h1 span {
+  font-size: 17px;
+}
+#special-card {
+  background-color: var(--primary-color);
+  color: #fff;
+  scale: 1.05;
+}
+#special-card h1 {
+    border-top: 2px dashed #fff;
+}
+#special-card button{
+    background-color: #fff;
+    color: black;
+}
+#special-card h2 {
+  color: #fff;
+}
