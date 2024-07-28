@@ -2,15 +2,19 @@ import "./Subscription.css";
 import alien1 from "../../assets/Alien-1.svg";
 import alien2 from "../../assets/Alien-2.svg";
 import alien3 from "../../assets/Alien-3.svg";
+import { IoMdArrowRoundBack } from "react-icons/io";
 import { FaCircleCheck } from "react-icons/fa6";
 export default function Subscription() {
   return (
     <>
       <div className="subscription-container">
+        <div className="back">
+<IoMdArrowRoundBack size={25}/>
+        </div>
         <div className="subscription-header">
           <h2>Bienvenue sur Rondonna</h2>
           <h1>
-            Sélectionnez votre forfait annuel et <br />
+            Sélectionnez votre forfait annuel et 
             bénéficiez des avantages
           </h1>
         </div>

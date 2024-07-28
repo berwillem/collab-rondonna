@@ -9,18 +9,21 @@ export default function Home() {
   return (
     <>
       <div className="home-container">
+     
         <div className="home-content">
-          <img src={logo} alt="logo" />
+        <img src={logo} alt="logo" className="logo" />
+        <span></span>
           <div className="home-text">
+         
             <h1>
               L’algerie autrement avec <br />
               <span> Rondonna</span>{" "}
             </h1>
             <p>
               Inscrivez-vous pour un partenariat exclusif avec Rondonna 🌍✨.
-              Ensemble, <br /> offrons des expériences de voyage inoubliables
-              🏞️✈️ et développons nos <br /> opportunités de croissance 📈🤝.
-              Rejoignez notre communauté passionnée et <br /> innovante pour
+              Ensemble, offrons des expériences de voyage inoubliables
+              🏞️✈️ et développons nos opportunités de croissance 📈🤝.
+              Rejoignez notre communauté passionnée et  innovante pour
               créer des aventures exceptionnelles 🌟🌐!
             </p>
             <Link to="/subscription" className="btn-link">
