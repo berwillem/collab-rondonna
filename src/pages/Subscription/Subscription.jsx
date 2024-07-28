@@ -4,6 +4,7 @@ import alien2 from "../../assets/Alien-2.svg";
 import alien3 from "../../assets/Alien-3.svg";
 import { IoMdArrowRoundBack } from "react-icons/io";
 import { FaCircleCheck } from "react-icons/fa6";
+import { Link } from "react-router-dom";
 export default function Subscription() {
   return (
     <>
@@ -52,7 +53,9 @@ export default function Subscription() {
             <h1>
               2 000DZD/ <span>mois</span>
             </h1>
-            <button>Choisir</button>
+            <Link to="/subscription/basic">
+              <button>Choisir</button>
+            </Link>
           </div>
           <div className="card" id="special-card">
             <div className="card-title">
@@ -86,7 +89,9 @@ export default function Subscription() {
             <h1>
               1 000DZD + 15%/ <span>mois</span>
             </h1>
-            <button>Choisir</button>
+            <Link to="/subscription/standard">
+              <button>Choisir</button>
+            </Link>
           </div>
           <div className="card">
             <div className="card-title">
@@ -121,7 +126,9 @@ export default function Subscription() {
             <h1>
               5 000DZD+10%/ <span>mois</span>
             </h1>
-            <button>Choisir</button>
+            <Link to="/subscription/premieum">
+              <button>Choisir</button>
+            </Link>
           </div>
         </div>
       </div>

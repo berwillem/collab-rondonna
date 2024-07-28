@@ -65,15 +65,16 @@
   gap: 12px;
 }
 .cards .card button {
-    background-color: var(--primary-color);
-    color: #fff;
-    border: none;
-    padding: 10px 20px;
-    border-radius: 5px;
-    font-weight: 600;
-    font-size: 17px;
-    cursor: pointer;
+  background-color: var(--primary-color);
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-weight: 600;
+  font-size: 17px;
+  cursor: pointer;
 }
+
 .checked {
   color: #35353f;
   height: 20px;
@@ -82,7 +83,7 @@
 .card h1 {
   font-size: 25px;
 
-  border-top: 2px dashed #A9A9AA;
+  border-top: 2px dashed #a9a9aa;
   padding-top: 20px;
 }
 .card h1 span {
@@ -94,11 +95,11 @@
   scale: 1.05;
 }
 #special-card h1 {
-    border-top: 2px dashed #fff;
+  border-top: 2px dashed #fff;
 }
-#special-card button{
-    background-color: #fff;
-    color: black;
+#special-card button {
+  background-color: #fff;
+  color: black;
 }
 #special-card h2 {
   color: #fff;
