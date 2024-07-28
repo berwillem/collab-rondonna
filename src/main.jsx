@@ -4,6 +4,7 @@ import App from "./pages/Home/Home";
 import "./index.css";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Subscription from "./pages/Subscription/Subscription";
+import SubscriptionDetail from "./pages/SubscriptionDetail/SubscriptionDetail";
 
 const router = createBrowserRouter([
   {
@@ -13,6 +14,10 @@ const router = createBrowserRouter([
   {
     path: "/subscription",
     element: <Subscription />,
+  },
+  {
+    path: "/subscription/:detail",
+    element: <SubscriptionDetail />,
   },
 ]);
 ReactDOM.createRoot(document.getElementById("root")).render(

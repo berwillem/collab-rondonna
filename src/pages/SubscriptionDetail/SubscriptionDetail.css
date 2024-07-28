@@ -1,0 +1,8 @@
+.subscription-detail-container {
+  display: flex;
+}
+
+.legal {
+  display: flex;
+  gap: 15px;
+}
