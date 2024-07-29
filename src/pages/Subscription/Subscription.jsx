@@ -5,12 +5,13 @@ import alien3 from "../../assets/Alien-3.svg";
 import { IoMdArrowRoundBack } from "react-icons/io";
 import { FaCircleCheck } from "react-icons/fa6";
 import { Link } from "react-router-dom";
+
 export default function Subscription() {
   return (
     <>
       <div className="subscription-container">
         <div className="back">
-<IoMdArrowRoundBack size={25}/>
+        <Link to="/"><IoMdArrowRoundBack size={25}/></Link>
         </div>
         <div className="subscription-header">
           <h2>Bienvenue sur Rondonna</h2>
@@ -50,7 +51,7 @@ export default function Subscription() {
                 Notifications par e-mail
               </li>
             </ul>
-            <h1>
+            <h1 >
               2 000DZD/ <span>mois</span>
             </h1>
             <Link to="/subscription/basic">
