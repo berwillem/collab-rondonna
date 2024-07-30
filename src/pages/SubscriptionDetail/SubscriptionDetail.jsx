@@ -110,7 +110,7 @@ export default function SubscriptionDetail() {
     formData.append('payment_method', payement ? 'Cash on delivery' : 'Virement bancaire');
     formData.append('amount', selectedPlan.price);
     formData.append('detail', selectedPlan.title);
-
+  formData.append('subject', ' Inscription agence de voyage');
     const emailData = Object.fromEntries(formData.entries());
    
     
