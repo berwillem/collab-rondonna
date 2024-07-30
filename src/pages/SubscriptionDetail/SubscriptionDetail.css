@@ -24,6 +24,9 @@ cursor: pointer;
   display: flex;
   gap: 15px;
 }
+.legal h2{
+color: black;
+}
 .subscription-detail-content{
   display: flex;
   flex-direction: column;
@@ -361,6 +364,9 @@ font-weight: 500;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+}
+.legals a{
+  text-decoration: none;
 }
 @media screen and (max-width: 1240px) {
   .subscription-detail-container {
